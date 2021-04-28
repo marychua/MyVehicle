@@ -1,0 +1,50 @@
+
+<div class="page">
+    <div class="header black">
+        <div class="left">
+            <button class="icon ion-ios-arrow-back" onclick="backPage()"></button>
+        </div>
+        <h1 class="title align-center ion-plus">Insert Record</h1>
+    </div>
+<div class="list">
+    <div class="item"></div>
+    <div class="item">
+        <select class="brand" id="brand" name="brand">
+            <option value="" disabled="" selected="">Vehicle Brand*</option>
+            <option value="volvo">Volvo</option>
+            <option value="toyota">Toyota</option>
+            <option value="honda">Honda</option>
+            <option value="mercedes">Mercedes Benz</option>
+            <option value="bmw">BMW</option>
+            <option value="proton">Proton</option>
+        </select>
+    </div>
+
+    <div class="item bind-input-event-click">
+        <input type="text" id="model" name="model"  placeholder="Vehicle Model*">
+    </div>
+    <div class="item bind-input-event-click">
+        <input type="number" id="distance" name="distance" placeholder="Total Distance (KM)*">
+    </div>
+    <div class="item bind-input-event-click">
+        <input type="date" id="date" name="date" placeholder="Date*">
+    </div>
+    <div class="item bind-input-event-click">
+        <input type="time" id="time" name="time" placeholder="Time*">
+    </div>
+    <div class="item bind-input-event-click">
+        <input type="number" id="price" name="price"  placeholder="Total Price (RM)*">
+    </div>
+    <div class="item bind-input-event-click">
+        <input type="text" id="part-change" name="part-change" placeholder="Part Change">
+    </div>
+    <div class="item bind-input-event-click">
+        <input type="text" id="repair-shop" name="repair-shop" placeholder="Repair Shop*">
+    </div>
+    <div class="item">
+        <button class="grey-900 radius full confirm-btn" onclick="saveRecord()" >Confirm</button>
+        <button class="grey-800 radius full clear-btn" onclick="InputClear()">Clear</button>
+    </div>
+</div>
+
+</div>
